@@ -1,0 +1,171 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+*{
+    box-sizing:border-box;
+}
+
+
+html{
+    font-size:62.5%;
+}
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    font-size:1.6rem;
+}
+
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size:4rem;
+    margin-bottom: 5rem;
+}
+
+nav{
+    margin:0 auto;
+    padding:4rem;
+    text-align: center;
+}
+
+
+.involved{
+    color:white;
+    background-color:#ffcd69;
+    text-decoration:none;
+    border-radius:10px;
+    display:inline-block;
+    padding:1rem;
+    width:13rem;
+    text-align: center;
+    margin:0 5rem;
+    
+}
+
+.learn{
+    color:white;
+    background-color:#5ED3EB;
+    text-decoration:none;
+    border-radius:10px;
+    display:inline-block;
+    padding:1rem;
+    width:13rem;
+    text-align: center;
+    margin:0 5rem;
+   
+}
+
+.visit{
+    color:white;
+    background-color:#FF764E;
+    text-decoration:none;
+    border-radius:10px;
+    display:inline-block;
+    padding:1rem;
+    width:13rem;
+    text-align: center;
+    margin:0 5rem;
+    
+}
+
+
+.intro{
+    margin:0 auto;
+    text-align: center;
+}
+
+.intro img{
+    width: 20rem;
+    border-radius:100rem;
+    display:inline-block;
+    margin-left:4rem;
+
+}
+
+.intro div{
+    display:inline-block;
+    text-align:center;
+    margin:0 auto;
+    width:50%;
+}
+
+.intro p{
+    width:100%;
+    text-align:center;
+    margin:0 auto;
+    margin-bottom: 1.8rem;
+}
+
+
+span.special{
+    font-weight:normal;
+    display:block;
+    width:70%;
+    margin:0 auto;
+
+}
+
+span{
+    font-weight:bolder;
+}
+
+.body{
+    color:white;
+    background-color:#DDB9A3;
+    width:90%;
+    height:auto;
+    margin:0 auto;
+    padding:1rem;
+    margin-top:3rem;
+}
+.body p{
+    font-size:1.5rem;
+    width:95%;
+    text-align:center;
+    margin:0 auto;
+    margin-bottom:2rem;
+}
+
+.images img{
+    width: 35%;
+}
+
+.images p{
+    margin-bottom:3rem;
+}
+
+.images{
+    text-align:center;
+    font-size:1.3rem;
+    width:27%;
+    margin:0 auto;
+    padding:2rem;
+}
+
+footer img{
+    height:23rem;
+    width:100%;
+    object-fit:cover;
+    object-position: top;
+    
+}
+
+footer{
+    background-color: #F9E7DC;
+}
